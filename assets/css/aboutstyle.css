@@ -1,0 +1,98 @@
+/* About Style */
+
+body 
+{
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+	margin-bottom: 0px;
+	font-size: 15px;
+	font-weight: 400;
+	color: #7a7a7a;
+	line-height: 30px;
+}
+a {
+	text-decoration: none!important;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+.main-button a {
+	display: inline-block;
+	background-color: #f48840;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 500;
+	padding: 12px 20px;
+	text-transform: uppercase;
+	transition: all .3s;
+}
+
+.main-button a:hover {
+	background-color: #fb9857;
+}
+
+
+
+/* About me */
+
+.about-us {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.about-us img {
+	width: 100%;
+	overflow: hidden;
+	
+}
+
+
+
+.about-us ul li {
+	display: inline-block;
+	margin: 0px 15px;
+}
+
+.about-us ul li a 
+	{
+	width: 40px;
+	height: 40px;
+	text-align: center ;
+	line-height: 40px;
+	display: inline-block;
+	background-color: #212931;
+	color: #fff; /*fff*/
+	border-radius: 50%;
+	transition: all .3s;
+}
+
+.about-us ul li a:hover {
+	background-color: #f48840;
+}
+.about-us p {
+	margin-bottom: 0px;
+	font-size: 22px;
+	font-weight: 300;
+	color: #030303;
+	line-height: 30px;
+}
+.about-us p em {
+	font-size: 30px;
+	font-style: normal;
+	color: #f48840;
+}
+
+/* credits - GeekyNerd24 (Devashish Bhor)*/
