@@ -75,7 +75,7 @@
     <link rel="stylesheet" href="assets/css/headforindex.css"> 
     <link rel="stylesheet" href="assets/css/indexstyle.css">
     <link rel="stylesheet" href="assets/css/responsivestyleforindex.css">
-    <link rel="stylesheet" href="style2.css">  
+    <link rel="stylesheet" href="assets/css/style2.css">  
     
 				<!-- CSS files Ends -->
 
@@ -143,10 +143,10 @@
 
 
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a href="index.html" class="nav-link link-scroll">Intro</a></li>
-              <li class="nav-item"><a href="blog.html" class="nav-link link-scroll">Blogs</a></li>        
-	      <li class="nav-item"><a href="contact.html" class="nav-link link-scroll">Contact Me</a></li>
-	      <li class="nav-item"><a href="about.html" class="nav-link link-scroll">About Me</a></li>
+              <li class="nav-item"><a href="#Intro-1" class="nav-link link-scroll">Intro</a></li>
+              <li class="nav-item"><a href="#MySkills" class="nav-link link-scroll">About Me</a></li>        
+	      <li class="nav-item"><a href="#Summary" class="nav-link link-scroll">Tech Summary</a></li>
+	      <li class="nav-item"><a href="#SkillSet" class="nav-link link-scroll">SkillSet</a></li>
             </ul>
 
           </div>
@@ -163,18 +163,17 @@
 
  
 <!-- Intro Image-->
-	<section class="intro-section introphoto img-fluid">
-	
-	
-<div class="container text-center">
+	<section id="Intro-1" class="intro-section introphoto img-fluid">
+        <div class="container text-center">       
         
-<!-- div data-animate="fadeInDown" class="logo"><img src="" alt="logo" width="130">
-	</div>-->
+            <h1 data-animate="fadeInDown" class="text-shadow mb-5" style="color: rgb(0, 0, 0);">Hire Me! </h1>
         
-	<h1 data-animate="fadeInDown" class="text-shadow mb-5" style="color: rgb(0, 0, 0);">Hire Me! <a href="assets/Docs/2.1 Devashish Resume.pdf" style="font-size: 20px; color: brown;"><u>(Download Resume)</u></a></h1>
+        <a href="assets/Docs/2.1 Devashish Resume.pdf" style="font-size: 20px; color: brown; font-weight: 700;"><u>(Download Resume)</u></a>
         
-<p data-animate="slideInUp" class="h3 text-shadow text-400" style="color:  rgb(12, 12, 12);">Looking for Internship in Software Development, Data Science, and Machine Learning</p>
-       
+        <p data-animate="slideInUp" class="h3 text-shadow text-400" style="color:  rgb(12, 12, 12);">
+            Looking for Internship in Software Development, Data Science, and Machine Learning
+        </p>
+        </div>
 	</section>
     
 
@@ -214,7 +213,7 @@
 		            <div class="skill-item">
                         <div class="progress-title">Python</div>
                         <div class="progress">
-                            <div role="progressbar" style="width: 80%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill8">
+                            <div role="progressbar" style="width: 86%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill8">
 		                    </div>
                         </div>
                     </div> <!-- Ethical hacking ended skill-->
@@ -241,7 +240,7 @@
                     <div class="skill-item">
                         <div class="progress-title">React JS</div>
               	        <div class="progress">
-                            <div role="progressbar" style="width: 79%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill8">
+                            <div role="progressbar" style="width: 66%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill8">
 	     		            </div>
                         </div>
                     </div><!-- Joomla-->
@@ -299,16 +298,23 @@
 
 
     
-<section id="services" class="bg-gradient services-section">
-    <div class="container">
-        
-
-	<header class= "text-center" >
-          <h2 data-animate="fadeInDown" class="title" >Yet Another Tech Summary</h2>
+<section id="Summary" class="bg-gradient services-section">
+    <div class="container">       
+        <header class= "text-center" >
+            <h2 data-animate="fadeInDown" class="title" >Yet Another Tech Summary</h2>
         </header>
-        
 
-	<div class="row services text-center">
+        <div class="row services text-center">          
+            <div data-animate="fadeInUp" class="col-lg-4">
+                <div class="icon">
+                    <i class="fa fa-html5"></i>
+                </div>
+                <h3 class="heading mb-3 text-400" >Web Developer</h3>
+                <p class="text-left description" style="font-size:12px; font-weight:300; font-size: 17px; line-spacing:3px; text-align: justify;"> 
+                    Web Development is the scratch thing started by every Software Development Engineer. I started my skillset enrichment by learning HTML, CSS and more on by creating awesome designs which fantasizes the user. After learning the Web Development, I got an opportunity to <b style="color: black; font-weight: 700;">Intern as a Software Development Engineer</b>, Where I was responsible for development of a website along with the colleagues using the tech stack of <i style="color: t;">HTML, CSS, BootStrap, PhP, MySQL and JavaScript</i>. <a href="assets/Docs/Devashish Bhor internship .jpg" target="_blank"><u style="color: blue;">Click here</u></a> to know more about Internship.
+                </p>
+            </div>
+
             <div data-animate="fadeInUp" class="col-lg-4">
                 <div class="icon">
                     <i class="fa fa-braille"></i>
@@ -319,8 +325,6 @@
                     Machine Learning Engineering is the recently started domain to upskill in. Several Courses and mini projects have done in same. Excellent Python proficiency with more than 3 yr of experience really assist in for the learning and upskilling. Current quarter curriculam itself includes the same subject under the Artificial Intelligence. The journey to Machine learning was starting with Web Scrapping, Data Science, Data Analysis and will lead me towards the ultimatum i.e Artifical Intelligence.
                 </p>
             </div> 
-
-
 
             <div data-animate="fadeInUp" class="col-lg-4">
                 <div class="icon">
@@ -334,61 +338,48 @@
             </div>
 
 
-            <div data-animate="fadeInUp" class="col-lg-4">
-                <div class="icon">
-                    <i class="fa fa-html5"></i>
-		        </div>
-                <h3 class="heading mb-3 text-400" >Web Developer</h3>
-                <p class="text-left description" style="font-size:12px; font-weight:300; font-size: 17px; line-spacing:3px; text-align: justify;"> 
-                    Web Development is the scratch thing started by every Software Development Engineer. I started my skillset enrichment by learning HTML, CSS and more on by creating awesome designs which fantasizes the user. After learning the Web Development, I got an opportunity to <b style="color: black; font-weight: 700;">Intern as a Software Development Engineer</b>, Where I was responsible for development of a website along with the colleagues using the tech stack of <i style="color: t;">HTML, CSS, BootStrap, PhP, MySQL and JavaScript</i>. <a href="assets/Docs/Devashish Bhor internship .jpg" target="_blank"><u style="color: blue;">Click here</u></a> to know more about Internship.
-                </p>
-            </div>
-        </div>
-
-<br>
+        </div><br>
+            
         <hr data-animate="fadeInUp" >
-            <div data-animate="fadeInUp" class="text-center">
-                <p class="lead" >Would you like to know more or just discuss something?		</p><br>
-                <p>
-		<a href="contact.html" class="btn btn-outline-light link-scroll">Contact me</a>
-		</p>
-            </div>
-
-
+        <div data-animate="fadeInUp" class="text-center">
+            <p class="lead" >Would you like to know more or just discuss something?	</p><br>
+            <p>
+            <a href="contact.html" class="btn btn-outline-light link-scroll">Contact me</a>
+            </p>
+        </div>
     </div> <!-- *** Container Division ended *** -->
 </section> <!-- *** Job Intrested Section ended *** -->
-    
+
+
+
+
+
+
+
+
 
 
 			<!-- ==== #Skill Developed SECTION ==== -->
-
-
-
-
-<section id="statistics" data-dir="up" style="background: url(&quot;assets/images/parallax.jpg&quot;);" class="statistics-section text-white parallax parallax" >
+<section id="SkillSet" data-dir="up" style="background: url(&quot;assets/images/parallax.jpg&quot;);" class="statistics-section text-white parallax parallax" >
     <div class="container">
         <header class="text-center">
             <h2 data-animate="fadeInDown" class="title" style="color:white">Fresh and Familiar Top of Skillset</h2>
         </header> 
-
-				<!-- DIV ROW SHOWCASE -->
-	
+		
+        <!-- DIV ROW SHOWCASE -->
         <div class="row showcase text-center">
-	
-
+            
             <div data-animate="fadeInUp" class="col-lg-2 col-md-6">
                 <div class="item">
-                    <div class="icon"><i class="fa fa-code"></i>
-		    </div>
+                    <div class="icon"><i class="fa fa-code"></i></div>
                     <h5 class="text-400 mt-4 text-uppercase">Python</h5><br><br>
-		</div>
+		        </div>
             </div>
 
 
             <div data-animate="fadeInUp" class="col-lg-2 col-md-6">
                 <div class="item">
-                    <div class="icon"><i class="fa fa-html5"></i>
-		    </div>
+                    <div class="icon"><i class="fa fa-html5"></i></div>
                     <h5 class="text-400 mt-4 text-uppercase">Front-End</h5><br><br>
                 </div>
             </div>
@@ -396,8 +387,7 @@
 
             <div data-animate="fadeInUp" class="col-lg-2 col-md-6">
                 <div class="item"> 
-                    <div class="icon"><i class="fa fa-database"></i>
-		    </div>
+                    <div class="icon"><i class="fa fa-database"></i></div>
                     <h5 class="text-400 mt-4 text-uppercase">Back-end </h5><br><br>
                 </div>
             </div>
@@ -405,34 +395,29 @@
 
             <div data-animate="fadeInUp" class="col-lg-2 col-md-6">
                 <div class="item">
-                    <div class="icon"><i class="fa fa-bar-chart"></i>
-		    </div>
+                    <div class="icon"><i class="fa fa-bar-chart"></i></div>
                     <h5 class="text-400 mt-4 text-uppercase">Data Science </h5><br><br>
                 </div>
             </div>
 	
-	    <div data-animate="fadeInUp" class="col-lg-2 col-md-6">
+	        <div data-animate="fadeInUp" class="col-lg-2 col-md-6">
                 <div class="item">
-                    <div class="icon"><i class="fa fa-area-chart"></i>
-		    </div>
+                    <div class="icon"><i class="fa fa-area-chart"></i></div>
                     <h5 class="text-400 mt-4 text-uppercase">Data Analysis</h5><br><br>
                 </div>
             </div>
-	    <div data-animate="fadeInUp" class="col-lg-2 col-md-6">
+
+	        <div data-animate="fadeInUp" class="col-lg-2 col-md-6">
                 <div class="item">
-                    <div class="icon"><i class="fa fa-braille"></i>
-		    </div>
+                    <div class="icon"><i class="fa fa-braille"></i></div>
                     <h5 class="text-400 mt-4 text-uppercase">Machine Learning </h5><br><br>
                 </div>
             </div>
 
-
-	</div>	<!-- DIV ROW SHOWCASE END-->
-
-      </div>
-      <div class="dark-mask">
-      </div>
-</section> <!-- Job Intrested Section ENDS  -->
+	    </div>	<!-- DIV ROW SHOWCASE END-->
+    </div>
+    <div class="dark-mask"></div>
+</section> 
 
 
 
@@ -450,52 +435,6 @@
 			<!-- ==== Symbol Plate SECTION ==== -->
 
 
-<!-- Symbol Plate Section-->
-<section id="Symbol Plate" class="customers-section bg-gray">
-    <div class="container">
-        <div class="col-md-12">
-            <div class="row align-items-center">
-
-
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="customer"><img src="assets/images/customers/logo-1.svg"  alt="" class="img-fluid d-block mx-auto">
-		    </div>
-                </div>
-
-
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="customer"><img src="assets/images/customers/logo-2.svg"  alt="" class="img-fluid d-block mx-auto">
-		    </div>
-                </div>
-
-
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="customer"><img src="assets/images/customers/logo-3.svg"  alt="" class="img-fluid d-block mx-auto">
-		    </div>
-                </div>
-
-
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="customer"><img src="assets/images/customers/logo-4.svg"  alt="" class="img-fluid d-block mx-auto">
-		    </div>
-                </div>
-
-
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="customer"><img src="assets/images/customers/logo-5.svg"  alt="" class="img-fluid d-block mx-auto">
-		    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="customer"><img src="assets/images/customers/logo-6.svg"  alt="" class="img-fluid d-block mx-auto">
-		    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-</section><!-- Symbol Plate Section END-->
     
 
 			<!-- ======= FOOTER ======= -->
@@ -504,49 +443,48 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-center text-lg-left">
-                
 
-		<p class="social">
-		    
-		    <a href="https://www.instagram.com/devashishbhor" data-wow-delay="0.2s" class="external instagram wow fadeInUp">
-			<i class="fa fa-instagram">	
-			</i>
-		    </a>
-		    <a href="mailto:bhordevashish0@gmail.com" data-wow-delay="0.6s" class="external email wow fadeInUp">
-		  	<i class="fa fa-envelope">
-			</i>
-		    </a>
-		    <a href="https://www.linkedin.com/in/devashishbhor24/" data-wow-delay="0.6s" class="external linkedin wow fadeInUp">
-			<i class="fa fa-linkedin">
-			</i>
-		    </a>
-		    <a href="https://github.com/DevashishBhor24" data-wow-delay="0.6s" class="external github wow fadeInUp">
-			<i class="fa fa-github">
-			</i>
-		    </a>
+                <p class="social">
+                    
+                    <a href="https://www.instagram.com/devashishbhor" data-wow-delay="0.2s" class="external instagram wow fadeInUp">
+                    <i class="fa fa-instagram">	
+                    </i>
+                    </a>
+                    <a href="mailto:bhordevashish0@gmail.com" data-wow-delay="0.6s" class="external email wow fadeInUp">
+                    <i class="fa fa-envelope">
+                    </i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/devashishbhor24/" data-wow-delay="0.6s" class="external linkedin wow fadeInUp">
+                    <i class="fa fa-linkedin">
+                    </i>
+                    </a>
+                    <a href="https://github.com/DevashishBhor24" data-wow-delay="0.6s" class="external github wow fadeInUp">
+                    <i class="fa fa-github">
+                    </i>
+                    </a>
 
-            <a href="https://stackoverflow.com/users/12968952/devashishbhor" data-wow-delay="0.6s" class="external github wow fadeInUp">
-			<i class="fa fa-stack-overflow">
-			</i>
-		    </a>
+                    <a href="https://stackoverflow.com/users/12968952/devashishbhor" data-wow-delay="0.6s" class="external github wow fadeInUp">
+                    <i class="fa fa-stack-overflow">
+                    </i>
+                    </a>
 
-            <a href="https://www.hackerrank.com/bhordevashish0" data-wow-delay="0.6s" class="external github wow fadeInUp">
-			<i class="fa fa-code">
-			</i>
-		    </a>
+                    <a href="https://www.hackerrank.com/bhordevashish0" data-wow-delay="0.6s" class="external github wow fadeInUp">
+                    <i class="fa fa-code">
+                    </i>
+                    </a>
 
-            <a href="https://leetcode.com/bhordevashish/" data-wow-delay="0.6s" class="external github wow fadeInUp">
-			<i class="fa fa-code">
-			</i>
-		    </a>
+                    <a href="https://leetcode.com/bhordevashish/" data-wow-delay="0.6s" class="external github wow fadeInUp">
+                    <i class="fa fa-code">
+                    </i>
+                    </a>
 
-            <a href="https://www.codechef.com/users/geekynerd24" data-wow-delay="0.6s" class="external github wow fadeInUp">
-            <i class="fa fa-code">
-            </i>
-            </a>
-		</p>
-
+                    <a href="https://www.codechef.com/users/geekynerd24" data-wow-delay="0.6s" class="external github wow fadeInUp">
+                    <i class="fa fa-code">
+                    </i>
+                    </a>
+                </p>
             </div>
+        
             <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
                 <p>© 2020 GeekyNerd24 All rights reserved.</p>
             </div>

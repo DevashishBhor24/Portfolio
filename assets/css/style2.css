@@ -1,6 +1,6 @@
 
 .introphoto {
-  background-image: url('assets/images/home.jpg');
+  background-image: url("../images/ai-cs.jpg");
   width:100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,11 +16,9 @@
     /* Mobile sathi ith as kely zattu chukvu nako ata*/
     background-image: url('assets/images/home3.jpg');  
     background-repeat: no-repeat;
-
-	
   
 	}
-	
+
   .navbar-brand em{
     font-size: 20px;
   }
@@ -30,4 +28,3 @@
   }
 }
  
-*/	
