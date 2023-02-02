@@ -16,11 +16,15 @@
     /* Mobile sathi ith as kely zattu chukvu nako ata*/
     background-image: url('assets/images/home3.jpg');  
     background-repeat: no-repeat;
-
-
   
 	}
 
+  .navbar-brand em{
+    font-size: 20px;
+  }
+
+  .black-text{
+    font-size: 10px;
+  }
 }
  
-*/	
