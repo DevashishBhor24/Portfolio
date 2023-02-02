@@ -66,8 +66,14 @@ header .navbar {
     transition: all .3s ease 0s;
 	margin-top: 0px;
 }
-.navbar .navbar-brand h2 em {
+.navbar .navbar-brand h2  {
 	font-size: 44px;
+	font-style: Normal;
+	color: #f48840;
+}
+
+em{
+	font-size: 34px;
 	font-style: Normal;
 	color: #f48840;
 }
